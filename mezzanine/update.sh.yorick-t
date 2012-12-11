@@ -1,0 +1,3 @@
+cd {project_name}
+python2.7 manage.py migrate -v 0
+python2.7 manage.py collectstatic --noinput -v 0

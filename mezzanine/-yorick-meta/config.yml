@@ -1,0 +1,12 @@
+description: A Django project template with Mezzanine.
+variables:
+  project_name:
+    prompt: Enter a name for your project
+  compressor:
+    prompt: Use django-compressor?
+    type: boolean
+  mdown:
+    prompt: Use Markdown?
+    type: boolean
+excluded_files:
+  - README.md

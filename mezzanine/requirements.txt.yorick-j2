@@ -1,0 +1,8 @@
+Mezzanine==1.2.4
+psycopg2==2.4.5
+South==0.7.6
+{% if compressor %}django-compressor==1.2{% endif %}
+{% if mdown %}
+mezzanine-mdown==0.1a3
+Pygments==1.5
+{% endif %}

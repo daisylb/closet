@@ -1,0 +1,3 @@
+{project_name}/local_settings.py
+{project_name}/static/*
+*.db
