@@ -1,0 +1,5 @@
+description: Example description
+variables:
+  project_name:
+    prompt: Enter a name for your project
+  # insert your variables here
