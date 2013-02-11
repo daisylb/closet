@@ -1,5 +1,5 @@
 id: 98608ffa-7fb2-4fb0-9add-fb9a8debbab8
-description: Example description
+description: "A starter Django 1.5 project with South, and optionally django-allauth, raven and django-compressor."
 variables:
   project_name:
     prompt: Enter a name for your project
