@@ -5,3 +5,6 @@ variables:
     prompt: Enter a name for your project
   secret_key:
     prompt: The output of this command: python -c "import os; print repr(os.urandom(30))"
+  allauth:
+    prompt: Do you want to use django-allauth?
+    type: boolean

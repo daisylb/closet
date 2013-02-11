@@ -11,3 +11,7 @@ DATABASES = {
 		'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
 	}
 }
+
+{% if allauth %}
+# Note: Social authentication credentials are added in the Django admin.
+{% endif %}
