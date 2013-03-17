@@ -1,0 +1,3 @@
+# My Yorick skeleton
+
+This is my Yorick skeleton.
