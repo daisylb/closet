@@ -9,5 +9,8 @@ variables:
   mdown:
     prompt: Use Markdown?
     type: boolean
+  raven:
+    prompt: Use Raven (Sentry client)?
+    type: boolean
 excluded_files:
   - README.md
