@@ -4,7 +4,7 @@ variables:
   project_name:
     prompt: Enter a name for your project
   secret_key:
-    prompt: The output of this command: python -c "import os; print repr(os.urandom(30))"
+    prompt: "The output of this command: python -c \"import random; print repr(''.join(chr(random.randint(32,126)) for x in xrange(60)))\""
   allauth:
     prompt: Do you want to use django-allauth?
     type: boolean
