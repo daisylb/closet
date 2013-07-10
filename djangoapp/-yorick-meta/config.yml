@@ -1,0 +1,5 @@
+id: 9fff9ba0-2ad1-4bb7-acbf-76d35259d4d1
+description: "A template Django app"
+variables:
+  app_name:
+    prompt: Enter a name for your project
